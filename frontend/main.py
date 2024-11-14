@@ -45,7 +45,7 @@ if st.button("Analyze Text"):
 
     # Send the data to the backend
     try:
-        response = requests.post('https://e828c099-0401-4a1b-93d3-209102e9f37e-00-yrxns9az1pld.riker.replit.dev:8000/moderate', json=moderation_data)
+        response = requests.post('https://safe-place-mini-project.onrender.com/moderate', json=moderation_data)
         
         if response.status_code == 200:
             result = response.json()
