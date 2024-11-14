@@ -3,3 +3,4 @@ mistralai
 requests
 uvicorn
 streamlit
+python-dotenv
