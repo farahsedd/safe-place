@@ -10,7 +10,7 @@ app = FastAPI()
 # CORS setup
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:8501"],  # Allow Svelte frontend
+    allow_origins=["*"],  # Allow Svelte frontend
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
