@@ -1,0 +1,5 @@
+# Ignore environment variables file
+.env
+
+# Ignore Python bytecode files
+__pycache__/
